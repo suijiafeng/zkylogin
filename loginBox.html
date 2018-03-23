@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=9" />
+  <title>中国日报网</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+  <!--****主要部分******-->
+  <div class="loginBox">
+    <div class="loginBox_header">
+      <div class="logo">
+        <img src="images/loginBox_logo.jpg" alt="">
+      </div>
+    </div>
+    <div class="main">
+      <div class="leftBox">
+        <form action="" class="loginBox_form">
+          <div><span>用户名</span><input type="text" id="username" name="username"></div>
+          <div><span>密 码</span><input type="text" id="password" name="password"></div>
+          <div><span>验证码</span><input type="text" class="verification_txt"><img src="images/verification.jpg" alt=""><a href="">换一个</a></div>
+          <div><span></span><input type="checkbox" class="checkbox" id="checkbox"><label for="checkbox">两周内自动登录</label></div>
+          <div><span></span><input type="submit" class="loginBox_login" value="立即登录"><a href="findPsw.html" target="_blank" class="forgetpsw">忘记密码？</a></div>
+        </form>
+      </div>
+      <div class="rightBox">
+        <div class="loginBox_regBox">
+          <a href="register.html" target="_blank">没有账号吗？立即注册</a>
+          <a href="register.html" target="_blank" class="loginBox_reg">立即注册</a>
+        </div>
+        <span>使用合作网站账号登录</span>
+        <ul>
+          <a href="javascript:;" class="weixin thirdParty_login"></a>
+          <a href="javascript:;" class="weibo"></a>
+          <a href="javascript:;" class="tengxun"></a>
+          <a href="javascript:;" class="facebook"></a>
+          <a href="javascript:;" class="twitter"></a>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--****主要部分结束******-->
+  
+  <script src="js/jquery-1.10.2.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/jquery.validate.messages_zh.js"></script>
+  <script src="js/jquery.validate_params.js"></script>
+  <script src="js/layer/layer.js"></script>
+  <script src="js/common.js"></script>
+</body>
+</html>

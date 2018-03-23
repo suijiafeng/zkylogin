@@ -1,0 +1,545 @@
+@charset "utf-8";
+/*reset*/
+
+.user_header,.user_header_box,.user_main,.mysubscription ul,.myinterest ul,.youlike ul{*zoom:1}
+.user_header:after,.user_header_box:after,.user_main:after,.mysubscription ul:after,.myinterest ul:after,.youlike ul:after{content:" ";overflow:hidden;clear:both;display:block;height:0}
+
+.f14{font-size:14px;}
+
+/*头部*/
+.user_header{width:100%;min-width:1000px;height:120px;background:url(http://y0.ifengimg.com/headUp/images/user_subscribe02.png) repeat-x 0 -101px;}
+.user_header_box{width:1000px;margin:0 auto;}
+.user_head{position:relative;display:inline;float:left;width:180px;height:120px;overflow:hidden;}
+.user_head img{position:absolute;top:15px;left:36px;display:block;width:100px;height:100px;overflow:hidden;}
+.user_head a{position:absolute;top:15px;left:36px;display:block;width:100px;height:100px;overflow:hidden;background:url(about:blank) no-repeat;}
+
+
+
+.user_head_bg{position:absolute;width:180px;height:120px;overflow:hidden;background:url(http://y0.ifengimg.com/headUp/images/user_subscribe04.png) no-repeat;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="images/user_subscribe04.png");}
+
+.user_info{display:inline;float:left;width:820px;height:90px;overflow:hidden;}
+.user_func_setup{padding-top:16px;}
+.user_func_setup em{height:30px;line-height:30px;overflow:hidden;font-size:18px;color:#fff;}
+.user_func_setup em a{color:#fff;}
+.user_func_setup p{padding-top:6px;color:#969696;}
+.user_func_setup p a{color:#969696;}
+.user_func_setup p a:hover{color:#c4c4c4;}
+.user_func_setup p a.btn_setup{margin-left:30px;padding-left:17px;background:url(http://y0.ifengimg.com/headUp/images/user_subscribe01.png) no-repeat -134px 0;}
+.user_func_setup p a.btn_setup:hover{background-position:-134px -26px;}
+
+.user_func_up{float:right;width:120px;height:40px;overflow:hidden;margin:25px 1px 0 0;}
+.user_func_up a{display:block;width:120px;height:40px;overflow:hidden;background:url(http://y0.ifengimg.com/headUp/images/user_subscribe01.png) no-repeat 0 0;text-indent:-999999px;}
+.user_func_up a:hover{background-position:0 -50px;}
+
+/*结构*/
+.user_main{width:1000px;margin:0 auto;background:url(http://y0.ifengimg.com/headUp/images/user_subscribe05.png) repeat-y -200px 0;}
+.user_aside{display:inline;float:left;width:180px;}
+.user_content{display:inline;float:left;width:800px;margin:0 0 0 20px;overflow:hidden;}
+
+
+
+/*左侧部分*/
+.user_sidebar{width:180px;overflow:hidden;padding-top:6px;}
+
+.user_subscrip_box{width:180px;}
+.usersub_top{width:180px;height:10px;overflow:hidden;background:url(http://y0.ifengimg.com/headUp/images/user_subscribe02.png) no-repeat 0 -71px;}
+.usersub_foot{width:180px;height:10px;overflow:hidden;background:url(http://y0.ifengimg.com/headUp/images/user_subscribe02.png) no-repeat -190px -71px;}
+
+
+.usersub_cont{padding:0 0 10px;position:relative;background:url(http://y0.ifengimg.com/headUp/images/user_subscribe05.png) repeat-y 0 0;zoom:1;}
+
+
+.add_subscrip_box{padding-top:10px;}
+.add_subscrip{display:block;width:120px;height:37px;margin:0 auto;overflow:hidden;background:url(http://y0.ifengimg.com/headUp/images/user_subscribe01.png) no-repeat 0 -100px;text-indent:-999999px;}
+.add_subscrip:hover{background-position:0 -147px;}
+
+.list_subscrip{overflow:hidden;zoom:1;}
+.list_subscrip_scrollbar{height:451px;overflow:hidden;}
+
+.list_sub_box{display:inline;float:left;width:100%;padding:8px 0 7px;}
+.list_sub_box a{cursor:pointer;display:block;width:100%;height:100%;overflow:hidden;}
+.list_sub_box a img{display:inline;float:left;width:30px;height:30px;overflow:hidden;margin-left:30px;}
+.list_sub_box a span{display:inline;float:left;width:82px;height:30px;line-height:30px;overflow:hidden;color:#747474;font-size:13px;margin-left:10px;}
+.list_sub_box a:hover span{color:#901d22;text-decoration:none;}
+
+.list_sub_box a .new{display:inline;float:left;width:8px;height:8px;overflow:hidden;background:url(http://y0.ifengimg.com/headUp/images/user_subscribe06.png) no-repeat;margin:11px 0 0 0;}
+
+.user_sidebar li em{display:block;height:54px;line-height:54px;font-size:16px;}
+.user_sidebar li em a{display:block;width:100%;height:100%;overflow:hidden;color:#747474;text-indent:56px;}
+.user_sidebar li.current em a{color:#901d22;}
+
+.user_sidebar li .us_sub{background:url(http://y0.ifengimg.com/headUp/images/user_subscribe03.png) no-repeat 0 20px;}
+.user_sidebar li .us_comment{background:url(http://y0.ifengimg.com/headUp/images/user_subscribe03.png) no-repeat 0 -50px;}
+.user_sidebar li .us_upload{background:url(http://y0.ifengimg.com/headUp/images/user_subscribe03.png) no-repeat 0 -110px;}
+.user_sidebar li .us_collect{background:url(http://y0.ifengimg.com/headUp/images/user_subscribe03.png) no-repeat 0 -170px;}
+.user_sidebar li .us_view{background:url(http://y0.ifengimg.com/headUp/images/user_subscribe03.png) no-repeat 0 -229px;}
+
+
+.user_sidebar li.current .us_sub{background:url(http://y0.ifengimg.com/headUp/images/user_subscribe03.png) no-repeat 0 -303px;}
+.user_sidebar li.current .us_comment{background:url(http://y0.ifengimg.com/headUp/images/user_subscribe03.png) no-repeat 0 -373px;}
+.user_sidebar li.current .us_upload{background:url(http://y0.ifengimg.com/headUp/images/user_subscribe03.png) no-repeat 0 -433px;}
+.user_sidebar li.current .us_collect{background:url(http://y0.ifengimg.com/headUp/images/user_subscribe03.png) no-repeat 0 -493px;}
+.user_sidebar li.current .us_view{background:url(http://y0.ifengimg.com/headUp/images/user_subscribe03.png) no-repeat 0 -553px;}
+
+
+.user_sidebar li .us_sub:hover{background:url(http://y0.ifengimg.com/headUp/images/user_subscribe03.png) no-repeat 0 -303px;color:#901d22;}
+.user_sidebar li .us_comment:hover{background:url(http://y0.ifengimg.com/headUp/images/user_subscribe03.png) no-repeat 0 -373px;color:#901d22;}
+.user_sidebar li .us_upload:hover{background:url(http://y0.ifengimg.com/headUp/images/user_subscribe03.png) no-repeat 0 -433px;color:#901d22;}
+.user_sidebar li .us_collect:hover{background:url(http://y0.ifengimg.com/headUp/images/user_subscribe03.png) no-repeat 0 -493px;color:#901d22;}
+.user_sidebar li .us_view:hover{background:url(http://y0.ifengimg.com/headUp/images/user_subscribe03.png) no-repeat 0 -553px;color:#901d22;}
+
+
+
+
+
+.ui_scrollbar{position:absolute;top:0px;right:0px;width:10px;height:451px;overflow:hidden;background:url(http://y0.ifengimg.com/headUp/images/user_subscribe01.png) no-repeat 0 -470px;}
+.ui_scrollbar_thumb{cursor:pointer;position:absolute;top:0px;right:0px;width:10px;padding-top:5px;background:url(http://y0.ifengimg.com/headUp/images/user_subscribe01.png) no-repeat -15px -916px;}
+.ui_scrollbar_thumb span{display:block;height:100%;padding-bottom:10px;background:url(http://y0.ifengimg.com/headUp/images/user_subscribe01.png) no-repeat -30px bottom;}
+
+/*标题*/
+.title{height:40px;line-height:40px;overflow:hidden;background:url(http://y0.ifengimg.com/headUp/images/user_subscribe01.png) repeat-x 0 -360px;margin-left:20px;}
+.title h2{font-size:16px;color:#901d22;background:url(http://y0.ifengimg.com/headUp/images/user_subscribe01.png) repeat-x 0 -410px;}
+.title h2 a{display:block;height:40px;line-height:40px;color:#901d22;}
+.title .more{float:right;}
+.title .more a{display:block;background:url(http://y2.ifengimg.com/2013/vindex-test/images/0703/homebg08.png) no-repeat center right;padding-right:16px;font-size:14px;}
+.title .more a:hover{background:url(http://y2.ifengimg.com/2013/vindex-test/images/0703/homebg09.png) no-repeat center right}
+
+.title .exchange{float:right;}
+.title .exchange a{display:block;background:url(http://y0.ifengimg.com/headUp/images/user_subscribe01.png) no-repeat -133px -50px;padding-left:22px;font-size:14px;}
+.title .exchange a:hover{}
+
+.title .goback{float:right;}
+.title .goback a{display:block;background:url(http://y0.ifengimg.com/headUp/images/user_subscribe01.png) no-repeat -140px -692px;padding-left:15px;font-size:14px;}
+.title .goback a:hover{background-position:-140px -764px;}
+.title_my{width:80px;}
+.title_interest{width:150px;}
+.title_youlike{width:80px;}
+
+
+/*我的订阅*/
+.mysubscription{margin-top:19px;}
+.mysubscription ul li{position:relative;display:inline;float:left;width:140px;margin:25px 0 0 20px;}
+.mysubscription ul li .mysubpic{position:relative;}
+.mysubscription ul li .mysubpic .mysubpic_box{cursor:pointer;position:relative;display:block;width:140px;height:186px;overflow:hidden;}
+.mysubscription ul li .mysubpic .mysubpic_box img{display:block;width:140px;height:186px;overflow:hidden;}
+.mysubscription ul li .mysubpic .time{position:absolute;top:169px;left:0px;display:block;height:17px;line-height:17px;overflow:hidden;color:#fff;padding-right:17px;}
+.mysubscription ul li .mysubpic .time .timetxt{display:inline;float:left;background:#000;padding:0 5px;font-style:normal;}
+.mysubscription ul li .mysubpic .time .timebg{display:inline;float:left;width:17px;height:17px;background:url(http://y0.ifengimg.com/headUp/images/user_subscribe07.png) no-repeat right top;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="images/user_subscribe07.png");}
+.mysubscription ul li .mysubpic .mysubpic_box:hover.mysubpic_box{_width:auto}
+.mysubscription ul li .mysubpic .mysubpic_box:hover .photos_shadow{position:absolute;top:0px;left:0px;display:block;width:138px;height:184px;overflow:hidden;border:1px solid #901d22}
+.mysubscription ul li .mysubpic .mysubpic_box:hover .photos_shadow i{position:absolute;top:0px;left:0px;display:block;width:136px;height:182px;overflow:hidden;border:1px solid #fff}
+.mysubscription ul li p{padding-top:5px;height:36px;line-height:18px;overflow:hidden;word-wrap:break-word;word-break:break-all;}
+.mysubscription ul li .mysubpic_new{display:block;position:absolute;top:-9px;right:-6px;display:block;width:24px;height:24px;overflow:hidden;text-indent:-999999px;}
+.mysubscription ul li .mysubpic_new a{cursor:pointer;display:block;width:24px;height:24px;overflow:hidden;background:url(http://y0.ifengimg.com/headUp/images/user_subscribe08.png) no-repeat;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="images/user_subscribe08.png");}
+
+/*你可能感兴趣的节目*/
+.myinterest{margin-top:30px;}
+.myinterest ul li{position:relative;display:inline;float:left;width:140px;margin:25px 0 0 20px;}
+.myinterest ul li .mysubpic{position:relative;}
+.myinterest ul li .mysubpic .mysubpic_box{cursor:pointer;position:relative;display:block;width:140px;height:186px;overflow:hidden;}
+.myinterest ul li .mysubpic .mysubpic_box img{display:block;width:140px;height:186px;overflow:hidden;}
+.myinterest ul li .mysubpic .time{position:absolute;top:169px;left:0px;display:block;height:17px;line-height:17px;overflow:hidden;color:#fff;padding-right:17px;}
+.myinterest ul li .mysubpic .time .timetxt{display:inline;float:left;background:#000;padding:0 5px;font-style:normal;}
+.myinterest ul li .mysubpic .time .timebg{display:inline;float:left;width:17px;height:17px;background:url(http://y0.ifengimg.com/headUp/images/user_subscribe07.png) no-repeat right top;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="images/user_subscribe07.png");}
+.myinterest ul li .mysubpic .mysubpic_box:hover.mysubpic_box{_width:auto}
+.myinterest ul li .mysubpic .mysubpic_box:hover .photos_shadow{position:absolute;top:0px;left:0px;display:block;width:138px;height:184px;overflow:hidden;border:1px solid #901d22}
+.myinterest ul li .mysubpic .mysubpic_box:hover .photos_shadow i{position:absolute;top:0px;left:0px;display:block;width:136px;height:182px;overflow:hidden;border:1px solid #fff}
+.myinterest ul li p{padding-top:5px;height:36px;line-height:18px;overflow:hidden;word-wrap:break-word;word-break:break-all;}
+
+.myinterest ul li .subscribe_box{display:block;position:absolute;top:0;right:0;display:block;width:79px;height:37px;overflow:hidden;text-indent:-999999px;}
+.myinterest ul li .subscribe_box a{cursor:pointer;display:block;width:79px;height:37px;overflow:hidden;background:url(http://y0.ifengimg.com/headUp/images/subscribe.png) no-repeat;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="images/subscribe.png");}
+.myinterest ul li .subscribe_box a:hover{background:url(http://y0.ifengimg.com/headUp/images/subscribe_hover.png) no-repeat;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="images/subscribe_hover.png");}
+
+
+/*猜你喜欢*/
+.youlike{margin-top:30px;}
+.youlike ul li{position:relative;display:inline;float:left;width:140px;margin:25px 0 0 20px;}
+.youlike ul li .mysubpic{position:relative;}
+.youlike ul li .mysubpic .mysubpic_box{cursor:pointer;position:relative;display:block;width:140px;height:105px;overflow:hidden;}
+.youlike ul li .mysubpic .mysubpic_box img{display:block;width:140px;height:105px;overflow:hidden;}
+.youlike ul li .mysubpic .time{position:absolute;top:88px;left:0px;display:block;height:17px;line-height:17px;overflow:hidden;color:#fff;padding-right:17px;}
+.youlike ul li .mysubpic .time .timetxt{display:inline;float:left;background:#000;padding:0 5px;font-style:normal;}
+.youlike ul li .mysubpic .time .timebg{display:inline;float:left;width:17px;height:17px;background:url(http://y0.ifengimg.com/headUp/images/user_subscribe07.png) no-repeat right top;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="images/user_subscribe07.png");}
+.youlike ul li .mysubpic .mysubpic_box:hover.mysubpic_box{_width:auto}
+.youlike ul li .mysubpic .mysubpic_box:hover .photos_shadow{position:absolute;top:0px;left:0px;display:block;width:138px;height:103px;overflow:hidden;border:1px solid #901d22}
+.youlike ul li .mysubpic .mysubpic_box:hover .photos_shadow i{position:absolute;top:0px;left:0px;display:block;width:136px;height:101px;overflow:hidden;border:1px solid #fff}
+.youlike ul li p{padding-top:5px;height:36px;line-height:18px;overflow:hidden;word-wrap:break-word;word-break:break-all;}
+
+
+
+/*---------- 用户主页 ----------*/
+
+.openup{width:782px;height:51px;overflow:hidden;margin:0 0 30px 20px;background:url(http://y0.ifengimg.com/headUp/images/user_subscribe02.png) no-repeat 0 0;}
+.openup a{display:inline;float:left;width:70px;height:30px;margin-top:5px;overflow:hidden;text-indent:-999999px;}
+
+.openup_reg{margin-left:627px;background:url(http://y0.ifengimg.com/headUp/images/user_subscribe01.png) no-repeat 0 -276px;}
+.openup_reg:hover{background-position:0 -316px;}
+
+.openup_logon{margin-left:7px;background:url(http://y0.ifengimg.com/headUp/images/user_subscribe01.png) no-repeat -80px -276px;}
+.openup_logon:hover{background-position:-80px -316px;}
+
+.mysubscribe{margin-top:0;}
+
+/*---------- 添加订阅 ----------*/
+.programa_type{}
+.programa_type dl{height:30px;line-height:30px;overflow:hidden;}
+.programa_type dl dt{display:inline;float:left;width:68px;margin-left:20px;background:#e9e9e9;color:#000;text-align:center;font-size:14px;font-weight:bold;}
+.programa_type dl dd{display:inline;float:left;width:712px;overflow:hidden;background:#f2f2f2;}
+
+.programa_type dl dd span{font-weight:bold;}
+.programa_type dl dd span.current{color:#901d22;}
+.programa_type dl dd span.current a{color:#901d22;}
+.programa_type dl dd span a{display:inline-block;white-space:nowrap;color:#000;background:url(http://y0.ifengimg.com/headUp/images/user_subscribe01.png) no-repeat right -488px;padding:0 20px;}
+.programa_type dl dd span a.spe{background:none;}
+
+/*翻页*/
+.page{padding:30px 0;text-align:center;font-size:15px;}
+.page a{display:inline-block;height:38px;line-height:38px;overflow:hidden;background:#f3f3f3;padding:0 15px;border:1px solid #e9e9e9;margin:0 5px;color:#747474;}
+.page span.current{display:inline-block;height:38px;line-height:38px;overflow:hidden;background:#fff;padding:0 15px;border:1px solid #e9e9e9;margin:0 5px;color:#901d22;}
+
+
+/*---------- 栏目主页 ----------*/
+.programInfo{overflow:hidden;zoom:1;padding-top:30px;}
+.programInfo_pic{display:inline;float:left;width:160px;position:relative;margin-left:20px;}
+.programInfo_txt{display:inline;float:left;width:600px;margin-left:20px;}
+.programInfo_pic .mysubpic .mysubpic_box{cursor:pointer;position:relative;display:block;width:160px;height:213px;overflow:hidden;}
+.programInfo_pic .mysubpic .mysubpic_box img{display:block;width:160px;height:213px;overflow:hidden;}
+.programInfo_pic .mysubpic .time{position:absolute;top:196px;left:0px;display:block;height:17px;line-height:17px;overflow:hidden;color:#fff;padding-right:17px;}
+.programInfo_pic .mysubpic .time .timetxt{display:inline;float:left;background:#000;padding:0 5px;font-style:normal;}
+.programInfo_pic .mysubpic .time .timebg{display:inline;float:left;width:17px;height:17px;background:url(http://y0.ifengimg.com/headUp/images/user_subscribe07.png) no-repeat right top;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="images/user_subscribe07.png");}
+.programInfo_pic .mysubpic .mysubpic_box:hover.mysubpic_box{_width:auto}
+.programInfo_pic .mysubpic .mysubpic_box:hover .photos_shadow{position:absolute;top:0px;left:0px;display:block;width:158px;height:211px;overflow:hidden;border:1px solid #901d22}
+.programInfo_pic .mysubpic .mysubpic_box:hover .photos_shadow i{position:absolute;top:0px;left:0px;display:block;width:156px;height:209px;overflow:hidden;border:1px solid #fff}
+.programInfo_pic .subscribe_box{display:block;position:absolute;top:0;right:0;display:block;width:79px;height:37px;overflow:hidden;text-indent:-999999px;}
+.programInfo_pic .subscribe_box a{cursor:pointer;display:block;width:79px;height:37px;overflow:hidden;background:url(http://y0.ifengimg.com/headUp/images/subscribe.png) no-repeat;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="images/subscribe.png");}
+.programInfo_pic .subscribe_box a:hover{background:url(http://y0.ifengimg.com/headUp/images/subscribe_hover.png) no-repeat;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="images/subscribe_hover.png");}
+.programInfo_pic .subscribe_box a.subscribe_link_yet{background:url(http://y0.ifengimg.com/headUp/images/yet-subscribe.png) no-repeat;}
+.programInfo_pic .subscribe_box a.subscribe_link_yet:hover{background:url(http://y0.ifengimg.com/headUp/images/yet-subscribe_hover.png) no-repeat;}
+.programInfo_txt .pritxt_title{overflow:hidden;zoom:1;}
+.programInfo_txt .pritxt_title em{float:left;height:31px;line-height:31px;font-size:24px;color:#901d22;}
+.programInfo_txt .pritxt_title em a{color:#901d22;}
+.programInfo_txt .pritxt_title .pritxt_link{float:left;display:inline-block;width:120px;height:31px;overflow:hidden;margin-left:18px;background:url(http://y0.ifengimg.com/headUp/images/user_subscribe01.png) no-repeat 0 -194px;text-indent:-99999px;}
+.programInfo_txt .pritxt_title .pritxt_link:hover{background-position:0 -235px;}
+.programInfo_txt .pritxt_list{padding-top:20px;}
+.programInfo_txt .pritxt_list p{line-height:20px;color:#747474;}
+.programInfo_txt .pritxt_info{padding-top:20px;}
+.programInfo_txt .js_inforp_open{display:inline-block;background:url(http://y0.ifengimg.com/headUp/images/user_subscribe01.png) no-repeat -112px -570px;margin-left:3px;padding-right:15px;color:#000;}
+.programInfo_txt .js_inforp_close{display:inline-block;background:url(http://y0.ifengimg.com/headUp/images/user_subscribe01.png) no-repeat -112px -637px;margin-left:3px;padding-right:15px;color:#000;}
+
+/* 频道页尾 */
+.btmsear{width:1000px;margin:15px auto 0;height:40px;color:#000;}
+.btmsear a{text-decoration:none}
+.btmsear a:hover{color:#901d22; text-decoration:underline}
+.btmsear .btmnav{width:643px;float:left;margin:12px 0 0 5px;display:inline;color:#c7c7c7;zoom:1;}/*130527*/
+.btmsear .btmnav li{float: left;padding: 0px 5px;background: url(http://y2.ifengimg.com/f3a90b93df336b6f/2013/0321/vfocus12.png) right center no-repeat;}
+.btmsear .btmnav a{color:#000;}
+.btmsear .btmnav a:hover{color:#901d22; }
+.btmsear .btmnav li.libgno{background:none;}
+.btmsear .sotool{margin:7px 0 0 0;}
+.sotool{position:relative;display:inline;float:left;width:352px;margin:6px 0 0 103px}
+.sotool .s_input_box{display:inline;float:left;width:280px;height:28px;background:url(http://y2.ifengimg.com/f3a90b93df336b6f/2013/0321/vnavbg13012303.png) no-repeat 0 0;overflow:hidden}
+.sotool .s_input_box .s_input{outline:none;width:265px;height:18px;line-height:18px;_line-height:17px;overflow:hidden;margin:0 0 0 3px;padding:5px 6px 4px;*padding:4px 6px 5px;font-family:'\5FAE\8F6F\96C5\9ED1','\5B8B\4F53',Arial,Helvetica,sans-serif;;border:0 none;font-size:12px;color:#333;vertical-align:middle;background:transparent;color:#929292}
+.sotool .s_button{cursor:pointer;border:0 none;display:inline;float:left;width:72px;height:28px;overflow:hidden;background:url(http://y2.ifengimg.com/f3a90b93df336b6f/2013/0321/vnavbg13012301.png) no-repeat -320px 0;text-indent:-99999px;outline:none}
+.sotool .s_button:hover{background-position:-320px -36px}
+
+
+
+
+
+
+
+
+
+
+/* -------------------- 我的评论 -------------------- */
+
+/* 评论 */
+.videocomment{position:relative; width:100%;font-size:12px;background:#fff;overflow:hidden;}
+.videocomment a{color:#747474;text-decoration:none}
+.videocomment a:hover{color:#901d22; text-decoration:underline}
+.vcom_send{position:relative;padding:0 0 18px}
+.vcom_tit{line-height:18px;padding:13px 0 13px;overflow:hidden;zoom:1;font-weight:bold;}
+.vcom_tit h2{float:left;color:#6a6a6a;font-size:14px}
+.vcom_tit span{float:left;color:#004a99}
+.vcom_tit span a{color:#004a99}
+.vcom_key{position:absolute;top:18px;top:12px!important;right:0;font-size:18px;color:#747474;font-family:Georgia,'Times New Roman',Times,serif}
+.vcom_send .prompt{font-size:12px;color:#747474;font-family:"Microsoft YaHei","SimSun",Arial,Helvetica,sans-serif;}
+.vcom_send .prompt em{padding:0 5px;font-size:20px;line-height:120%;color:#c30000;font-family:Georgia,'Times New Roman',Times,serif}
+.vcom_input{_width:100%; margin:0 auto;overflow:hidden;position:relative}
+.vcom_succeed{width:131px;height:35px;background:url(http://y0.ifengimg.com/v/article/20120615/videocomment03.png) no-repeat;position:absolute;top:50%;left:50%;margin:-17px 0 0 -65px;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://y0.ifengimg.com/v/article/20120615/videocomment03.png',sizingMethod='scale');_background-image:none}
+.vcom_submitted{width:161px;height:35px;background:url(http://y1.ifengimg.com/38716b164e0f5e63/2013/0522/vcom_submitted.png) no-repeat;position:absolute;top:50%;left:50%;margin:-17px 0 0 -80px;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://y1.ifengimg.com/38716b164e0f5e63/2013/0522/vcom_submitted.png',sizingMethod='scale');_background-image:none}
+.vcom_warning{width:192px;height:35px;background:url(http://y1.ifengimg.com/38716b164e0f5e63/2013/0522/vcom_warning.png) no-repeat;position:absolute;top:50%;left:50%;margin:-17px 0 0 -96px;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://y1.ifengimg.com/38716b164e0f5e63/2013/0522/vcom_warning.png',sizingMethod='scale');_background-image:none}
+.vcom_inputc{background:#D7E8FA;padding:2px;+padding:1px 4px 1px 2px;text-align:center; -webkit-border-radius: 4px;border-radius: 4px;*zoom:1;}
+.vcominputc_inner{width:100%;overflow:hidden;}
+.vcominputcinner_box{padding-right:10px;}
+.vcom_send .import .vcom_inputc{background:#91c5fd;}
+.vcom_send .error .vcom_inputc{background:#fbb7b7;}
+.reply_box .vcom_input{margin:0 auto;overflow:hidden}
+.reply_box .vcom_send{padding:0 20px 18px}
+.reply_box .vcom_send .import .vcom_inputc{background:#91c5fd;}
+.reply_box .vcom_send .error .vcom_inputc{background:#fbb7b7;}
+.reply_box .btnico .tlayer ul li{border-bottom:none;padding:0;background:none;}
+.vcom_input textarea{width:100%;height:82px;line-height:22px;padding:0 4px; *padding:0;outline:medium none;overflow-x:hidden;overflow-y:auto;resize:none;font-size:14px;color:#747474;font-family:"Microsoft YaHei","SimSun",Tahoma;border:1px solid #c9c9c9;vertical-align: middle;_vertical-align: top;-webkit-box-shadow: inset 1px 1px 1px 1px rgba(100, 100, 100, 0.2);box-shadow: inset 1px 1px 1px 1px rgba(100, 100, 100, 0.2);-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-border-radius: 4px;border-radius: 4px;}
+.reply_box .vcom_input textarea{width:100%;height:67px;line-height:22px;padding:4px 0 0 8px;*padding:0; border:0 none;outline:medium none;overflow-x:hidden;overflow-y:auto;resize:none;font-size:14px;color:#747474;border:1px solid #c9c9c9;font-family:"Microsoft YaHei","SimSun",Tahoma;-webkit-box-shadow: inset 1px 1px 1px 1px rgba(100, 100, 100, 0.2);box-shadow: inset 1px 1px 1px 1px rgba(100, 100, 100, 0.2);}
+.vcom_function,.btnico,.vcom_list ul,.vcom_list_text,.vcom_pages,.vcom_pages ul{*zoom:1}
+.vcom_function:after,.btnico:after,.vcom_list ul:after,.vcom_list_text:after,.vcom_pages:after,.vcom_pages ul:after{content:" ";overflow:hidden;clear:both;display:block;height:0}
+.vcom_function{margin:0 auto;}
+.face{margin:13px 0 0 0}
+.btnico{display:inline;float:right}
+.face img{display:inline;float:left;margin-right:8px}
+.btnico{height:40px}
+.btnico .update{display:inline;float:left;width:40px;margin:7px 5px 0 0;color:#747474}
+.btnico .tlayer{display:inline;float:left;margin:7px 0 0;width:75px}
+.btnico .tlayer ul{overflow:hidden;zoom:1}
+.btnico .tlayer ul li{display:inline;float:left;width:72px;height:20px;margin-right:4px}
+.btnico .tlayer ul li a{display:block;width:72px;height:20px;overflow:hidden}
+.btnico .tlayer ul li a.presina{background:url(http://y0.ifengimg.com/v/article/20120615/videocomment01.png) no-repeat -290px -170px}
+.btnico .tlayer ul li a.presina:hover{background-position:-362px -170px}
+.btnico .tlayer ul li.current a.presina{background-position:-434px -170px}
+.btnico .tlayer ul li.current a.presina:hover{background-position:-434px -170px}
+.btnico .publicBt{display:inline;float:left;width:90px;height:29px;overflow:hidden;background:url(http://y0.ifengimg.com/v/article/20120615/videocomment01.png) no-repeat 0 -170px}
+.btnico .publicBtn{display:inline;float:left;width:90px;height:29px;overflow:hidden;background:url(http://y0.ifengimg.com/v/article/20120615/videocomment01.png) no-repeat 0 -170px}
+.btnico .publicBt:link{background-position:0 -170px}
+.btnico .publicBt:visited{background-position:0px -170px}
+.btnico .publicBt:hover{background-position:-190px -170px}
+.btnico .publicBt:active{background-position:-95px -170px}
+.btnico .publicBton{display:inline;float:left;width:90px;height:29px;overflow:hidden;background:url(http://y0.ifengimg.com/v/article/20120615/videocomment01.png) no-repeat -95px -170px}
+.btnico .publicBton:link{background-position:-95px -170px}
+.btnico .publicBton:visited{background-position:-95px -170px}
+.btnico .publicBton:hover{background-position:-190px -170px}
+.btnico .publicBton:active{background-position:-95px -170px}
+.vcom_pages{margin:0 auto;padding:10px 0 5px}
+.vcom_pages .tips{display:inline;float:left;color:#747474}
+.vcom_pages .tips a{color:#004a99}
+.vcom_pages ul{display:inline;float:right;font-family:Arial}
+.vcom_pages ul li{display:inline;float:left;height:18px;line-height:18px;margin:0 5px;font-weight:bold;color:#6a6a6a;text-align:center;border:1px solid #FFF}
+.vcom_pages ul li em{width:18px}
+.vcom_pages ul li a{display:block;width:18px;height:18px;line-height:18px;line-height:20px\9;color:#6a6a6a}
+.vcom_pages ul li.current{background:#f4f2f3;border:1px solid #ebebeb;color:#004a99}
+.vcom_pages ul li.current span{display:block;width:18px;height:18px;line-height:18px;text-align:center}
+.vcom_pages ul li.vprev{height:18px;line-height:18px;line-height:20px\9;padding:0;background:#FFF;border:1px solid #ebebeb}
+.vcom_pages ul li.vnext{height:18px;line-height:18px;line-height:20px\9;padding:0;background:#FFF;border:1px solid #ebebeb}
+.vcom_pages ul li.vprev a{display:block;width:57px;height:18px;line-height:20px\9;padding:0;background:#FFF url(http://y0.ifengimg.com/v/article/20120615/videocomment01.png) no-repeat -640px -87px;text-indent:15px;font-weight:normal;text-align:left}
+.vcom_pages ul li.vprev span{display:block;width:57px;height:18px;line-height:20px\9;padding:0;background:#FFF url(http://y0.ifengimg.com/v/article/20120615/videocomment01.png) no-repeat -640px -179px;text-indent:15px;font-weight:normal;text-align:left;color:#b0b0b0}
+.vcom_pages ul li.vnext span{display:block;width:57px;height:18px;line-height:20px\9;padding:0;background:#FFF url(http://y0.ifengimg.com/v/article/20120615/videocomment01.png) no-repeat -597px -202px;text-indent:6px;font-weight:normal;text-align:left;color:#b0b0b0}
+.vcom_pages ul li.vprev a:hover{background:#f4f2f3 url(http://y0.ifengimg.com/v/article/20120615/videocomment01.png) no-repeat -640px -133px;text-decoration:none}
+.vcom_pages ul li.vnext a{display:block;width:57px;height:18px;line-height:20px\9;padding:0;background:#FFF url(http://y0.ifengimg.com/v/article/20120615/videocomment01.png) no-repeat -597px -110px;text-indent:6px;font-weight:normal;text-align:left}
+.vcom_pages ul li.vnext a:hover{background:#f4f2f3 url(http://y0.ifengimg.com/v/article/20120615/videocomment01.png) no-repeat -597px -156px;text-decoration:none}
+.vcom_pages ul.spe li{color:#6a6a6a;border:none}
+.vcom_pages ul.spe li.current{color:#004a99;border:none;background:none}
+.vcom_pages ul.spe li.vprev a{background:none;border:none;text-indent:0;text-align:center}
+.vcom_pages ul.spe li.vnext a{background:none;border:none;text-indent:0;text-align:center}
+.vcom_list{padding-top:3px;width:100%;margin:0 auto;border-top:1px solid #dbdcdf}
+.vcom_list ul li{padding:12px 0;position:relative;background:url(http://y2.ifengimg.com/f3a90b93df336b6f/2013/0321/videocomment13030604.jpg) repeat-x bottom;}
+.vcom_list ul li .vcom_list_pic{display:inline;float:left;width:40px;height:40px;padding-left:10px}
+.vcom_list ul li .vcom_list_cont{overflow:hidden;zoom:1;padding-left:10px}
+.vcom_list ul li .vcom_list_cont em{display:block;color:#004a99;position:relative;top:-3px;overflow:hidden;zoom:1}
+.vcom_list ul li .vcom_list_cont em a{display:inline;float:left;color:#747474}
+.vcom_list ul li .vcom_list_cont em a:hover{color:#901d22;}
+.vcom_list ul li .vcom_list_cont p{padding-top:18px;line-height:20px;font-size:14px;color:#000;word-wrap:break-word;word-break:break-all;}
+.vcom_list_text{padding-top:19px}
+.vcom_list_text .time{display:inline;float:left;color:#747474}
+.vcom_list_text .reply{display:inline;float:right;position:relative;_position:static;overflow:hidden;zoom:1}
+.vcom_list_text .reply a{display:inline;float:left;padding:0 8px;color:#000}
+.vcom_list_text .reply i{display:inline;float:left;color:#000;font-style:normal;cursor:pointer;}
+.vcom_list_text .reply a:focus{outline:0}
+.vcom_list_text .reply a:hover{color:#901d22;}
+.vcom_list_text .reply a:hover i{color:#901d22;text-decoration:underline;}
+.forwarding{padding:0 0 0 8px;}
+.vcom_list_text .reply i.icon_sina{display:none; width:67px;height:16px;background:url(http://y0.ifengimg.com/v/article/20120615/videocomment01.png) no-repeat -362px -170px;padding:0 2px}
+.vcomListIcon{margin:-2px 0 0 8px}
+.reply_box{clear:both;border:1px solid #ebebeb;position:relative;margin:10px 24px 0 0;padding-top:34px;width:648px;}
+.reply_role{display:block;position:absolute;top:-8px;right:0px;_top:-7px;_right:10px;width:14px;height:8px;background:url(http://y0.ifengimg.com/v/article/20120615/videocomment01.png) no-repeat -637px -71px}
+.reply_box .vcom_key{top:-26px;right:20px; top:-26px!important}
+.vcom_btn{width:192px;height:29px;padding-bottom:3px;overflow:hidden;margin:10px auto 0;padding-bottom:24px}
+.vcom_btn a{display:block;width:100%;height:100%;background:url(http://y0.ifengimg.com/v/article/20120615/videocomment01.png) no-repeat 0 -131px}
+.vcom_btn span{display:block;width:100%;height:100%;background:url(http://y0.ifengimg.com/v/article/20120615/videocomment01.png) no-repeat 0 -131px}
+.vcom_btn a:link{background:url(http://y0.ifengimg.com/v/article/20120615/videocomment01.png) no-repeat -197px -131px}
+.vcom_btn a:visited{background:url(http://y0.ifengimg.com/v/article/20120615/videocomment01.png) no-repeat -197px -131px}
+.vcom_btn a:hover{background:url(http://y0.ifengimg.com/v/article/20120615/videocomment01.png) no-repeat -395px -131px}
+.vcom_btn a:active{background:url(http://y0.ifengimg.com/v/article/20120615/videocomment01.png) no-repeat -197px -131px}
+.vcom_new{width:100%;height:28px;line-height:28px;margin:-12px auto 2px;overflow:hidden;background:#fdffe2;border:1px solid #ebebeb;text-align:center}
+.vcom_new a{display:block;width:100%;height:100%}
+.vcom_noneList{text-align:center;padding:100px 0;color:#6a6a6a}
+.btnico .tlayer ul li a.presina_done{background:url(http://y0.ifengimg.com/v/article/20120615/videocomment01.png) no-repeat -362px -170px}
+.btnico .tlayer ul li a.presina:hover{background-position:-290px -170px}
+.btnico .tlayer ul li.current a.presina_done{background-position:-434px -170px}
+.btnico .tlayer ul li.current a.presina_done:hover{background-position:-434px -170px}
+.vcom_list ul li{overflow:hidden;zoom:1}
+.loginuser{font-weight:normal;font-family:"Microsoft YaHei","SimSun",Tahoma}
+.loginuser span{color:#747474;float:none;padding:0 6px 0 4px}
+.loginuser a{color:#000;font-size:14px;font-family:"Microsoft YaHei","SimSun",Tahoma}
+
+.btnico .publicBt{display:inline;float:left;width:92px;height:32px;overflow:hidden;outline:0}
+.btnico .publicBt:link{background:url(http://y2.ifengimg.com/f3a90b93df336b6f/2013/0321/videocomment13030603.png) no-repeat;background-position:0 0}
+.btnico .publicBt:visited{background:url(http://y2.ifengimg.com/f3a90b93df336b6f/2013/0321/videocomment13030603.png) no-repeat;background-position:0 0}
+.btnico .publicBt:hover{background:url(http://y2.ifengimg.com/f3a90b93df336b6f/2013/0321/videocomment13030603.png) no-repeat;background-position:0 -33px}
+.btnico .publicBt:active{background:url(http://y2.ifengimg.com/f3a90b93df336b6f/2013/0321/videocomment13030603.png) no-repeat;background-position:0 -66px}
+.btnico .publicBton{display:inline;float:left;width:92px;height:32px;overflow:hidden;outline:0}
+.btnico .publicBton:link{background:url(http://y2.ifengimg.com/f3a90b93df336b6f/2013/0321/videocomment13030603.png) no-repeat;background-position:0 -33px}
+.btnico .publicBton:visited{background:url(http://y2.ifengimg.com/f3a90b93df336b6f/2013/0321/videocomment13030603.png) no-repeat;background-position:0 -33px}
+.btnico .publicBton:hover{background:url(http://y2.ifengimg.com/f3a90b93df336b6f/2013/0321/videocomment13030603.png) no-repeat;background-position:0 -66px}
+.btnico .publicBton:active{background:url(http://y2.ifengimg.com/f3a90b93df336b6f/2013/0321/videocomment13030603.png) no-repeat;background-position:0 -33px}
+.vcom_btn{width:92px;height:32px;padding:0 0 6px;overflow:hidden;margin:0}
+.vcom_btn a{display:block;width:100%;height:100%;outline:0}
+.vcom_btn span{display:block;width:100%;height:100%;background:url(http://y2.ifengimg.com/f3a90b93df336b6f/2013/0321/videocomment13030603.png) no-repeat;background-position:0 0}
+.vcom_btn a:link{background:url(http://y2.ifengimg.com/f3a90b93df336b6f/2013/0321/videocomment13030603.png) no-repeat;background-position:0 -33px}
+.vcom_btn a:visited{background:url(http://y2.ifengimg.com/f3a90b93df336b6f/2013/0321/videocomment13030603.png) no-repeat;background-position:0 -33px}
+.vcom_btn a:hover{background:url(http://y2.ifengimg.com/f3a90b93df336b6f/2013/0321/videocomment13030603.png) no-repeat;background-position:0 -66px}
+.vcom_btn a:active{background:url(http://y2.ifengimg.com/f3a90b93df336b6f/2013/0321/videocomment13030603.png) no-repeat;background-position:0 -33px}
+
+/*增加腾讯微博121210*/
+#videocomment .loginMore .loginMoreLinkTx{display:block;width:125px;margin:14px 0 0;height:23px;line-height:25px;*line-height:23px;_line-height:25px;overflow:hidden;background:url(http://y3.ifengimg.com/f3a90b93df336b6f/2012/1030/comment-bgtxwb.png) no-repeat;color:#FFF;text-indent:25px}
+#videocomment .loginbox ul li .txt input{padding:0}
+#videocomment .weibo .wblogtit_tx{width:120px;height:20px;overflow:hidden;background:url(http://y3.ifengimg.com/f3a90b93df336b6f/2012/1030/comment-bgtxwb.png) no-repeat 0 -35px;margin:35px 0 0 50px}
+#videocomment .loginbox a.loginMoreLinkTx{color:#fff;}
+.vcom_function .btnico .tlayer{width:152px}
+.vcom_list_text .reply i.icon_qq{display:none;width:67px;height:16px;padding:0 2px;background:url(http://y3.ifengimg.com/f3a90b93df336b6f/2012/1030/comment-bgtxwb.png) no-repeat 0 -65px}
+.btnico .tlayer ul li a.pretx_done{background:url(http://y3.ifengimg.com/f3a90b93df336b6f/2012/1030/comment-bgtxwb.png) no-repeat 0 -65px}
+.btnico .tlayer ul li.current a.pretx_done{background:url(http://y3.ifengimg.com/f3a90b93df336b6f/2012/1030/comment-bgtxwb.png) no-repeat 0 -90px}
+.vcomrelayNum{display:inline;float:left;color:#929292;font-style:normal;padding-right:10px}
+.vcomListIconWb{margin:0 0 0 8px}
+.vcom_list ul li .vcom_list_cont em{top:0}
+/* 评论载入中 */
+.commentloading{text-align:center;padding:100px 0;}
+.vcom_list_text .reply a:hover i.icon_qq,.vcom_list_text .reply a:hover i.icon_sina { display:block;}
+.vcom_list_text .reply a:hover{width:auto;}
+
+.my_comments_box{overflow:hidden;zoom:1;padding-top:60px;margin-left:20px;}
+.my_comments_List{overflow:hidden;zoom:1;padding-bottom:60px;}
+.mcl_left{display:inline;float:left;width:90px;}
+.mcl_right{display:inline;float:left;width:672px;border-top:1px solid #e9e9e9;padding-left:18px;}
+
+.mcl_comment_show{width:652px;overflow:hidden;padding:12px 0 16px;line-height:22px;color:#747474;font-size:14px;}
+.video_source a{cursor:pointer;display:block;width:652px;height:47px;overflow:hidden;background:url(http://y0.ifengimg.com/headUp/images/my_comments_Listbg01.png) no-repeat;padding:2px 0 0 2px;}
+.video_source a img{filter:alpha(opacity=50);-moz-opacity:0.5;opacity:0.5;}
+
+.video_source a:hover{background:url(http://y0.ifengimg.com/headUp/images/my_comments_Listbg02.png) no-repeat;}
+.video_source a:hover img{filter:alpha(opacity=100);-moz-opacity:1.0;opacity:1.0;}
+
+.video_source a img{display:inline;float:left;width:60px;height:45px;overflow:hidden;}
+.video_source a span{display:inline;float:left;width:520px;margin-left:10px;overflow:hidden;height:22px;line-height:22px;color:#747474;padding-top:12px;}
+.video_source a:hover span{text-decoration:underline;color:#901d22;}
+
+.vcom_list_text{*zoom:1}
+.vcom_list_text:after{content:" ";overflow:hidden;clear:both;display:block;height:0}
+.vcom_list_text{width:660px;padding-top:24px}
+.vcom_list_text .time{display:inline;float:left;color:#747474}
+.vcom_list_text .time a{margin-left:10px;color:#747474}
+.vcom_list_text .time a:hover{color:#901d22}
+.com_reply_del{color:#747474;margin-left:10px;}
+.com_reply_del:hover{color:#901d22;text-decoration:underline;}
+
+
+/* -------------------- 我的设置 -------------------- */
+.clear{clear:both;line-height:0;height:0;overflow:hidden;font-size:0}
+.msl_user_edit{margin-left:20px;overflow:hidden;zoom:1;}
+.msl_user_edit table tr td{padding:3px 0;}
+.msl_user_edit .u_blue{display:block;padding:20px 0 20px 20px;}
+#interestBox span{padding:0 6px;}
+#interestBox .interestlist{padding:0 0 10px;}
+
+
+.my_ml20{margin-left:20px;}
+
+
+/*上传*/
+.uploadinghead{margin-left:20px;overflow:hidden;}
+.scBox{color:#747474;width:780px;}
+.scBox h2{font-size:14px;padding:30px 0;}
+.scBox .bg{background:url(http://y0.ifengimg.com/headUp/images/bg_03.jpg) no-repeat; width:500px; height:376px; }
+
+
+
+/*绑定*/
+.binding_tt{padding:50px 0 0;font-size:14px;margin-left:20px;}
+
+.synchronization{}
+.synchroniza_list{display:block;width:780px;overflow:hidden;zoom:1;margin:50px 0 0 20px;}
+.synchroniza_list .synchroniza_sina_link{display:block;width:780px;height:70px;line-height:70px;overflow:hidden;background:url(http://y0.ifengimg.com/headUp/images/my_comments_Listbg04.png) no-repeat 0 0;text-align:center;color:#747474;font-size:18px;}
+.synchroniza_list .synchroniza_sina_link:hover{background-position:0 -80px;color:#901d22;text-decoration:none;}
+
+.synchroniza_box{position:relative; width:780px;height:70px;overflow:hidden;}
+.syn_sina{background:url(http://y0.ifengimg.com/headUp/images/my_comments_Listbg04.png) no-repeat 0 -80px;}
+
+
+
+.synchroniza_ok{position:absolute;top:50%;left:50%;margin:-35px 0 0 -90px;display:block;width:180px;line-height:70px;text-align:center;text-align:center;color:#901d22;font-size:18px;}
+
+.synchroniza_show{position:absolute;top:0;right:0;width:209px;height:70px;padding-left:14px;background:url(http://y0.ifengimg.com/headUp/images/my_comments_Listbg04.png) no-repeat 0 -397px;overflow:hidden;zoom:1;}
+.synchroniza_show .left{display:inline;float:left;width:160px;padding-top:5px;}
+.synchroniza_show .right{display:inline;float:left;width:40px;height:42px;overflow:hidden;text-align:center;margin-top:14px;}
+
+
+.synchroniza_show .right a{display:block;width:40px;height:42px;overflow:hidden;background:url(http://y0.ifengimg.com/headUp/images/my_comments_Listbg04.png) no-repeat 0 -345px;line-height:20px;}
+.synchroniza_show .right a:hover{text-decoration:none;}
+
+.synchroniza_show p{height:30px;line-height:30px;overflow:hidden;}
+.synchroniza_show p span{color:#000;}
+
+
+
+.synchroniza_no{position:absolute;top:40px;left:500px;}
+
+
+
+
+
+.synchroniza_list .synchroniza_qq_link{display:block;width:780px;height:70px;line-height:70px;overflow:hidden;background:url(http://y0.ifengimg.com/headUp/images/my_comments_Listbg04.png) no-repeat 0 -160px;text-align:center;color:#747474;font-size:18px;}
+.synchroniza_list .synchroniza_qq_link:hover{background-position:0 -240px;color:#901d22;text-decoration:none;}
+
+.syn_qq{background:url(http://y0.ifengimg.com/headUp/images/my_comments_Listbg04.png) no-repeat 0 -240px;}
+
+
+
+
+
+.my_setup_List{min-height:600px;height:auto!important;height:600px;}
+
+.synchroniza_Img{position:fixed;top:50%;left:50%;width:131px;height:35px;overflow:hidden;margin:-17.5px 0 0 -65.5px;}
+.synchroniza_Img02{position:fixed;top:390px;left:33%;width:131px;height:35px;overflow:hidden;margin:0 0 0 -65.5px;}
+
+
+
+/*按钮*/
+.user_button{display:block;width:120px;height:37px;margin-left:135px;padding:30px 0;}
+.user_button a{display:block;width:120px;height:37px;line-height:37px;overflow:hidden;background:url(http://y0.ifengimg.com/headUp/images/my_comments_Listbg03.png) no-repeat;text-align:center;font-size:14px;color:#747474;}
+.user_button a:hover{background-position:0 -42px;text-decoration:none;color:#901d22;}
+/*设置分类*/
+.title_classify{float:right; width:364px;}
+.title_classify ul{overflow:hidden;zoom:1;}
+.title_classify ul li{display:inline;float:left;width:90px;height:35px;line-height:35px;font-size:15px;color:#747474;text-align:center;background:#f2f2f2;margin:0 0 1px 1px;}
+.title_classify ul li a{display:block;width:100%;height:100%;overflow:hidden;color:#747474;}
+.title_classify ul li.current{color:#901d22;font-weight:bold;}
+.title_classify ul li.current a{color:#901d22;}
+
+
+
+
+/*弹层*/
+
+.tips_pop{position:fixed;top:50%;left:25%;width:300px;height:200px;background:#f2f2f2;margin:-100px 0 0 -20px;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;overflow:hidden;border:1px solid #c2c2c2;z-index:999;}
+.tips_pop .tips_pop_close{display:inline;float:right;width:26px;height:26px;margin:3px;overflow:hidden;zoom:1;}
+.tips_pop .tips_pop_close a{display:block;width:100%;height:100%;background:url(http://y0.ifengimg.com/headUp/images/tips_pop02.png) no-repeat;text-indent:-999999px;}
+.tips_pop p{clear:both;font-size:14px;text-align:center;padding:50px 0 40px;}
+.tips_pop_btn{text-align:center;}
+.tips_pop_btn a{display:inline-block;width:70px;height:27px;line-height:27px;overflow:hidden;background:url(http://y0.ifengimg.com/headUp/images/tips_pop.png) no-repeat;text-align:center;margin:0 10px;color:#747474;}
+.tips_pop_btn a:hover{color:#901d22;}
+
+.tips_pop_box{position:absolute;top:120px;left:50%;width:700px;background:#f2f2f2;margin:0px 0 0 -240px;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;border:1px solid #c2c2c2overflow:hidden;}
+.tips_pop_box_title{height:40px;background:#f2f2f2;}
+.tips_pop_box_title span{display:inline;float:right;width:26px;height:26px;margin:6px;overflow:hidden;zoom:1;}
+.tips_pop_box_title span a{display:block;width:100%;height:100%;background:url(http://y0.ifengimg.com/headUp/images/tips_pop02.png) no-repeat;text-indent:-999999px;}
+.tips_pop_box_title h2{display:inline;float:left;height:40px;line-height:40px;padding-left:12px;font-size:14px;}
+.tips_pop_box_main{padding:0 0 20px;border:12px solid #f2f2f2;border-top:none;background:#fff;}
+.tips_pop_box_main .Edit_video_info{margin:0;padding:0;}
+
+/*IE兼容*/
+.tips_pop{_position:absolute;}
+
+
+
+
+
+
+

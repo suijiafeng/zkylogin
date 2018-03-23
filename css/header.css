@@ -1,0 +1,348 @@
+/*
+ * 暂时整合global.css, login.css, nav.css为头部css整体文件
+ *
+ */
+
+@charset "utf-8";
+/*2013.02.28*/
+/*reset*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,input,textarea,p,table,th,td{margin:0;padding:0}
+html{-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+body{font:12px/18px "Microsoft YaHei","SimSun",Arial,Helvetica,sans-serif;color: #747474;background:#fff;}
+input,select,button,textarea{vertical-align:middle;font-size:12px;outline:none}
+ol,ul{list-style:none}img{border:0}em{font-style:normal}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+table{border-collapse:collapse;border-spacing:0}
+textarea{resize:none}
+a{color:#000;outline:none;text-decoration:none;}
+a:hover{color:#901d22; text-decoration:underline}
+
+/* clearfloat */
+.clearfix{*zoom:1}
+.clearfix:after{content:" ";overflow:hidden;clear:both;display:block;height:0}
+/* ad */
+.ad1000{width:1000px;margin:0 auto;text-align:center;}
+.ad685{width:685px;text-align:center;}
+.ad300{width:300px;text-align:center;}
+/* Ƶ��ҳβ */
+.chaFotNav a,.copyright,.chaFooter a{font-family:"Microsoft YaHei";}
+.chaFotNav a:hover,.chaFooter a:hover{color:#901d22;}
+.chaFotNav .endNList li a{color:#000;}
+.chaFotNav .endNList li a:hover{color:#901d22;}
+.chaFooter .footLink a:hover{color:#901d22;}
+
+/*clearfix*/
+.vTopbar,.sotool,.loginTab,.vchannel{*zoom:1}
+.vTopbar:after,.sotool:after,.loginTab:after,.vchannel:after{content:" ";overflow:hidden;clear:both;display:block;height:0}
+/*导航*/
+.vTop{min-width:1000px;width:100%;height:40px;background:url(http://y0.ifengimg.com/2013/3/22/vnavbg13012302.png) repeat-x;font-size:12px;position:relative;z-index:99}
+.vTopbar{width:1000px;margin:0 auto;font-family:'\5FAE\8F6F\96C5\9ED1','\5B8B\4F53',Arial,Helvetica,sans-serif}
+.vlogo{display:inline;float:left;width:115px;height:40px}
+.vlogo a{display:block;width:115px;height:40px;overflow:hidden;background:url(http://y0.ifengimg.com/2013/3/22/vnavbg13012301.png) no-repeat;text-indent:-99999px}
+/*选频道*/
+.vnav{display:inline;float:left;width:85px}
+.vnav .vchannel .vselect{cursor:pointer;width:85px;height:28px;overflow:hidden;background:url(http://y0.ifengimg.com/2013/3/22/vnavbg13012301.png) no-repeat -210px 0;text-indent:-99999px;position:absolute;top:6px;left:0}
+.vnav .hover .vselect{width:85px;height:40px;overflow:hidden;background:url(http://y0.ifengimg.com/2013/3/22/vnavbg13012301.png) no-repeat -210px -36px;position:absolute;top:0px;left:0}
+.vchannel{position:relative;z-index:76;display:inline;float:left;width:85px;height:40px;margin:0 0 0 8px}
+.vnavbox{display:none;position:absolute;top:40px;left:2px;width:176px;padding:5px 0 11px;background:#FFF url(http://y0.ifengimg.com/2013/3/22/vnavbg13012302.png) repeat-x 0 -120px;border:1px solid #dcdcdc;border-top:none}
+.vnavbox ul{overflow:hidden;zoom:1;padding:10px 0 0 18px}
+.vnavbox ul li{display:inline;float:left;width:38px;padding-bottom:3px;color:#000}
+.vnavbox ul li a{color:#000}
+.vnavbox ul li a:hover{color:#8f1d22}
+.vnavbox ul li.vlispe{width:76px}
+.vnavbox ul li.vliw3{width:52px}
+.vnavbox ul li.vliw4{width:64px}
+.vnavbox ul li.vlbackhome{width:76px}
+/*搜索*/
+
+.sotool{position:relative;z-index:100;display:inline;float:left;width:352px;margin:6px 0 0 103px}
+/*.sotool{position:relative;z-index:999;display:inline;float:left;width:352px;margin:6px 0 0 103px}*/
+.sotool .s_input_box{display:inline;float:left;width:280px;height:28px;background:url(http://y0.ifengimg.com/2013/3/22/vnavbg13012303.png) no-repeat 0 0;overflow:hidden}
+.sotool .s_input_box .s_input{outline:none;width:265px;height:18px;line-height:18px;_line-height:17px;overflow:hidden;margin:0 0 0 3px;padding:5px 6px 4px;*padding:4px 6px 5px;font-family:'\5FAE\8F6F\96C5\9ED1','\5B8B\4F53',Arial,Helvetica,sans-serif;;border:0 none;font-size:12px;color:#333;vertical-align:middle;background:transparent;color:#929292}
+.sotool .s_button{cursor:pointer;border:0 none;display:inline;float:left;width:72px;height:28px;overflow:hidden;background:url(http://y0.ifengimg.com/2013/3/22/vnavbg13012301.png) no-repeat -320px 0;text-indent:-99999px;outline:none}
+.sotool .s_button:hover{background-position:-320px -36px}
+
+/*搜凤130805 begin*/
+.tipsboxIframe{position:absolute;top:26px;left:0;width:352px;height:312px;overflow:hidden;}/*搜凤130805*/
+.tipsbox{position:absolute;top:26px;left:0;width:350px;border:1px solid #bfbfc8;z-index:99;background:#fff url(http://y1.ifengimg.com/d362f633301abaa0/2013/0806/homesearch130523.png) repeat-y;}/*搜凤130805*/
+/*搜凤130805*/
+.tipslink{display:inline;float:left;width:209px}
+.tipsabout{display:inline;float:left;width:141px}
+.tipslink ul{overflow:hidden;zoom:1}
+.tipslink ul li{float:left;width:209px;height:31px;line-height:31px;overflow:hidden;font-size:12px;text-indent:7px;font-family:'\5FAE\8F6F\96C5\9ED1','\5B8B\4F53',Arial,Helvetica,sans-serif}
+.tipslink ul li a{display:block;width:190px;padding-right:19px;height:100%;overflow:hidden;color:#000}
+.tipslink ul li a:hover{background:#ebebeb;color:#901d22}
+.tipslink ul li.hover a{background:#ebebeb;color:#000}
+.tipslink ul li.hover a:hover{color:#901d22}
+.tipslink ul li.on a{display:block;background:url(http://y0.ifengimg.com/2013/3/22/vnavbg13012301.png) no-repeat 0 -105px}
+.tipslink ul li.on a:hover,
+.tipslink ul li.on_hover a{display:block;background:url(http://y0.ifengimg.com/2013/3/22/vnavbg13012301.png) no-repeat 0 -70px}
+.tipsList{width:120px;margin:0 auto;min-height:280px;height:auto!important;height:280px;overflow:hidden}
+.tipsList li{padding-top:10px;font-family:'\5FAE\8F6F\96C5\9ED1','\5B8B\4F53',Arial,Helvetica,sans-serif}
+.tipsList li h5{font-size:12px;font-weight:normal;height:36px;line-height:18px;overflow:hidden;font-family:'\5FAE\8F6F\96C5\9ED1','\5B8B\4F53',Arial,Helvetica,sans-serif}
+.tipsList li span{display:block;height:18px;line-height:18px;overflow:hidden;color:#747474}
+.tipspic{width:122px;margin:0 auto;min-height:280px;height:auto!important;height:280px;overflow:hidden}
+.tipspic li{zoom:1;padding-top:6px}
+.tipspic li .tipspicbox a{cursor:pointer;display:block;position:relative;display:block;width:120px;height:130px;overflow:hidden}
+.tipspic li .tipspicbox a img{display:block;width:120px;height:90px;overflow:hidden}
+.tipspic li .tipspicbox a .tipspicbox_pop{position:absolute;top:70px;left:0px;width:120px;height:20px;line-height:20px;overflow:hidden;background:#000;filter:alpha(opacity=60);-moz-opacity:0.6;opacity:0.6;color:#fff}
+.tipspic li .tipspicbox a .tipspicbox_pop_txt{position:absolute;top:70px;left:0px;width:110px;height:20px;line-height:20px;padding:0 5px;overflow:hidden;color:#fff}
+.tipspic li .tipspicbox a .photos_shadow{position:absolute;top:0px;left:0px;display:block;width:120px;height:90px;overflow:hidden}
+.tipspic li .tipspicbox a:hover .photos_shadow{position:absolute;top:0px;left:0px;display:block;width:120px;height:90px;overflow:hidden;background:url(http://y1.ifengimg.com/d362f633301abaa0/2013/0806/photos_shadow.png) no-repeat;z-index:99}
+.tipspic li .tipspicbox img{display:block;width:120px;height:90px;overflow:hidden}
+.tipspic li .tipspicbox a em{display:block;margin-top:3px;height:36px;line-height:18px;font-size:12px;overflow:hidden;font-family:'\5FAE\8F6F\96C5\9ED1','\5B8B\4F53',Arial,Helvetica,sans-serif}
+.tipspic li .tipspicbox a:hover em{text-decoration:underline}
+.tipsmore{width:140px;margin:0 auto;line-height:20px;padding:5px 0 4px;border-top:1px solid #d6d6d6;text-align:center}
+.tipspicbox .t_p_shadow{display:block;position:absolute;top:68px;left:1px;width:118px;height:20px;overflow:hidden;filter:alpha(opacity=60);-moz-opacity:0.6;opacity:0.6;background:#000}
+.tipspicbox .t_p_time{display:block;position:absolute;top:68px;left:1px;width:112px;height:20px;line-height:20px;padding-left:6px;overflow:hidden;color:#fff;font-family:'\5FAE\8F6F\96C5\9ED1','\5B8B\4F53',Arial,Helvetica,sans-serif}
+.tipspicbox a:hover{text-decoration:none}
+.tipsList li h5 a,.tipsmore a,.tipspic li p a{color:#000}
+.tipsList li h5 a:hover,.tipsmore a:hover,.tipspic li p a:hover{color:#901d22}
+/*搜凤130805 end*/
+
+.miniregi2{margin:0}
+/*注册登录*/
+.minilogin{float:right;position:relative;z-index:104}
+.minilogin li{float:left;margin-left:-1px;background:url(http://y0.ifengimg.com/2013/3/22/vnavbg13012302.png) no-repeat right -58px}
+.minilogin li a{color:#6a6a6a;padding:0 7px}
+.minilogin #header_upload,.minilogin #header_loginBtn a,.minilogin #header_regBtn a,.minilogin .last a{display:inline-block;height:40px;line-height:40px}
+.minilogin li.miniview{margin-top:0;padding-top:0px;position:relative}
+.minisee{z-index:118;position:relative}
+.minilogin li .minisee a{display:block;width:63px;height:40px;line-height:41px;margin:0 0 0 -1px;padding:0 7px;background:url(http://y0.ifengimg.com/2013/3/22/vnavbg13012301.png) no-repeat -323px -129px}
+.minilogin li.miniview .hover a{background:url(http://y0.ifengimg.com/2013/3/22/vnavbg13012301.png) no-repeat -215px -129px}
+.minicenter{position:absolute;width:145px;top:40px;left:2px;z-index:118;border:1px solid #e2e2e2;border-top:none;padding-top:2px;background:#fff url(http://y0.ifengimg.com/2013/3/22/vnavbg13012302.png) repeat-x 0 -120px}
+/*修改 start*/
+.minicenter{top:39px;}
+/*修改 end*/
+.minicenter ul li{width:146px;height:35px;line-height:35px;border-bottom:1px solid #e2e2e2;background:none;margin:0;padding:0;overflow:hidden}
+.minicenter ul li.nobg{border:0;text-align:center;text-indent:0}
+.minicenter ul li a{display:block;padding:0;height:35px;overflow:hidden;color:#004a99}
+.minicenter ul li a span{display:inline;float:left;overflow:hidden;background:url(http://y0.ifengimg.com/2013/3/22/vnavbg13012301.png) no-repeat;margin:9px 11px 0 27px}
+.minicenter ul li .icon_uc{width:15px;height:17px;background-position:0 -45px}
+.minicenter ul li .icon_uv{width:15px;height:14px;background-position:-20px -45px;margin-top:11px}
+.minicenter ul li .icon_cm{width:15px;height:11px;background-position:-50px -45px;margin-top:11px}
+.vmegtip{position:absolute;top:78px;left:97px;height:12px;line-height:12px;font-size:11px;-webkit-text-size-adjust:none;color:#fff}
+.vmegtip span{display:block;background:url(http://y0.ifengimg.com/2013/3/22/vnavbg13012301.png) no-repeat -395px -175px;padding-left:5px}
+.minilogin li .vmegtip a{display:block;background:url(http://y0.ifengimg.com/2013/3/22/vnavbg13012301.png) no-repeat right -187px;padding:0 5px 0 0;color:#fff;font-family:Arial,Helvetica,sans-serif}
+.minilogin li .vmegtip a:hover{text-decoration:none;color:#fff}
+.icon_pc{position:absolute;top:13px;left:14px;width:16px;height:15px;overflow:hidden;background:url(http://y0.ifengimg.com/2013/3/22/vnavbg13012301.png) no-repeat -67px -45px}
+.icon_pad{position:absolute;top:12px;left:14px;width:16px;height:12px;overflow:hidden;background:url(http://y0.ifengimg.com/2013/3/22/vnavbg13012301.png) no-repeat -88px -45px}
+.icon_mobile{position:absolute;top:12px;left:17px;width:10px;height:16px;overflow:hidden;background:url(http://y0.ifengimg.com/2013/3/22/vnavbg13012301.png) no-repeat -109px -45px}
+.miniuser{cursor:pointer;width:114px;height:40px;line-height:40px;display:block;border-bottom:none;overflow:hidden;z-index:119;position:relative}
+/*修改 start*/
+.miniuser{height: 41px;}
+/*修改 end*/
+.miniuser span{display:block;height:40px;text-align:right;padding-right:7px;color:#6A6A6A}
+.miniuser span em{color:#6a6a6a}
+.minilogin li.mininame{margin:0 0 0 -1px;padding-top:0;position:relative}
+.minilogin li.mininame em a{display:block;height:40px;padding:0}
+.minilogin li .update_tips{position:absolute;top:9px;left:103px;width:6px;height:6px;padding:0;overflow:hidden;background:url(http://y0.ifengimg.com/2013/3/22/vnavbg13012301.png) no-repeat -40px -45px}
+.mininame .hover{display:block;height:40px;background:url(http://y0.ifengimg.com/2013/3/22/vnavbg13012301.png) no-repeat -215px -80px}
+/*观看记录*/
+.miniseebox{position:absolute;width:283px;left:-179px;top:39px;z-index:117;line-height:18px;border:1px solid #e2e2e2; color:#6a6a6a;background:#fff url(http://y0.ifengimg.com/2013/3/22/vnavbg13012302.png) repeat-x 0 -120px}
+.miniseebox .clear_play{height:30px;line-height:30px;text-align:right;color:#C8C8C8;padding-right:18px}
+.miniseebox .clear_play a{color:#004A99;padding:0 12px}
+.miniseebox ul{width:283px;overflow:hidden;position:relative}
+.miniseebox ul li{width:240px;float:left;padding:7px 0 3px 43px;margin:0;border-bottom:1px solid #EBEBEB;background:none;cursor:pointer;position:relative;margin-bottom:-1px}
+.miniseebox ul li .txt{height:21px;overflow:hidden}
+.miniseebox ul li h4{float:left;font-weight:normal;width:205px;font-size:12px;line-height:19px;height:19px;display:inline;overflow:hidden}
+.miniseebox ul li h4 a{padding:0px}
+.miniseebox ul li .del{display:none;float:right;margin:2px 0 0 0;width:15px;height:15px;line-height:1px;font-size:1px;text-indent:-9999px;cursor:pointer;background:url(http://y0.ifengimg.com/2013/3/22/vnavbg13012301.png) no-repeat 0 -264px;}
+.miniseebox ul li .del a{width:15px;height:15px;display:block;padding:0}
+.miniseebox ul li .past{height:20px;width:210px}
+.miniseebox ul li .past span{float:left;color:#929292}
+.miniseebox ul li .past a{float:right;color:#004a99;padding:0px}
+.miniseebox ul li.current{background:#F4F2F3 url(http://y0.ifengimg.com/2013/3/22/vnavbg13012301.png) no-repeat -80px -210px}
+.miniseebox ul li.current .del{display:block}
+.miniseebox .dele{height:28px;text-align:center;line-height:28px;background:#f4f4f4}
+.miniseebox .dele a{color:#004a99}
+.miniseebox .norecord{height: 151px;text-align: center;padding-top: 136px;}
+.miniseebox .upload{height: 151px;text-align: center;padding-top: 134px;}
+.miniseebox .upload img{vertical-align:middle;width:16px;height:16px;margin-right:5px}
+.miniseebox .toolbar{text-align:center;padding:6px 0;background:#F4F4F4}
+.miniseebox .toolbar a{color:#004a99;padding:0 7px}
+.miniseebox .toolbar span{padding:1px;padding-left:37px;display:block;text-align:left}
+.miniseebox .clearplaybox{padding:68px 0}
+.miniseebox .clearplaybox .tips{padding-left:47px;width:180px;margin:0 auto; line-height:20px;color:#515151;background:url(http://y0.ifengimg.com/2013/3/22/vnavbg13012301.png) no-repeat -362px -80px}
+.miniseebox .clearplaybox .btn{padding-top:32px;height:25px;margin-left:39px}
+.miniseebox .clearplaybox .btn a{display:inline;float:left;width:75px;line-height:25px;text-align:center;margin-left:20px; color:#004a99;padding:0; background:url(http://y0.ifengimg.com/2013/3/22/vnavbg13012301.png) no-repeat 0 -210px}
+.miniseebox .clearplaybox .btn a:hover{background-position:0 -237px;text-decoration:none}
+.miniseebox ul.overflowy{height:255px;overflow-y:scroll}
+.miniseebox ul.overflowy li{width:223px}
+.minilogin .last{background:none}
+.minilogin .last a{padding:0 0 0 7px}
+.miniview iframe{background:transparent;display:block;position:absolute;left:-179px;top:39px;width:285px;height:314px;opacity:0;padding:0;border:none}
+.mininame iframe{background:transparent;display:block;position:absolute;left:2px;top:39px;height:146px;width:147px;opacity:0;padding:0;border:none}
+.vchannel iframe{background:transparent;display:block;position:absolute;left:2px;top:40px;width:178px;height:204px;opacity:0;padding:0;border:none}
+.minilogin li.mininame em a:hover,.minilogin #header_loginBtn a:hover,.minilogin li .minisee a:hover,.minilogin #header_regBtn a:hover,.miniseebox .clear_play a:hover,.miniseebox .toolbar a:hover,.miniseebox ul li .past a:hover,.miniseebox .clearplaybox .btn a:hover,.minilogin li a:hover,.minilogin .last a:hover,.minicenter ul li a:hover{color:#8f1d22}
+.minicenter ul li a,.miniseebox ul li .past a{color:#6A6A6A}
+.miniseebox .clearplaybox .btn a,.miniseebox .clear_play a,.miniseebox .toolbar a{color:#333}
+
+.minilogin li.miniview{*width:76px;}
+
+/*遮盖层*/
+/*.maskLayer{position:absolute;width:100%;height:100%;background:#000;top:0;left:0;filter:alpha(opacity=50);-moz-opacity:0.5;opacity:0.5;z-index:998}*/
+.maskLayer{position:fixed;_position:absolute;width:100%;height:100%;background:#000;top:0;left:0;filter:alpha(opacity=50);-moz-opacity:0.5;opacity:0.5;z-index:998}
+/*登录、注册*/
+.vloginbox{width:520px;height:410px;background:url(http://y0.ifengimg.com/2013/3/22/vloginbg.png) no-repeat 0 -265px;overflow:hidden;position:fixed;top:50%;left:50%;margin:-205px 0 0 -260px;_position:absolute;_top:expression((screen.availHeight-210)/2+(window.pageYOffset || document.documentElement.scrollTop));z-index:1200}
+.vlcont{width:490px;height:410px;padding:0 15px;overflow:hidden}
+.vlogintitle{margin-top:5px;width:490px;height:70px;overflow:hidden;background:url(http://y0.ifengimg.com/2013/3/22/vloginbg.png) repeat-x 0 -690px}
+.vl_tab{display:inline;float:left;width:260px;margin-top:24px}
+.vl_pop{display:inline;float:right;width:153px;overflow:hidden;zoom:1}
+.vl_tab ul{width:259px;height:46px;overflow:hidden;background:url(http://y0.ifengimg.com/2013/3/22/vloginbg.png) no-repeat -122px 0}
+.vl_tab ul li{display:inline;float:left;text-indent:-99999px}
+.vl_tab ul li .vl_log{display:block;width:130px;height:46px;overflow:hidden}
+.vl_tab ul li .vl_reg{display:block;width:130px;height:46px;overflow:hidden;margin-left:-1px;position:relative}
+.vl_tab ul li .vl_reg:hover,
+.vl_tab ul li .vl_log:hover{background:url(http://y0.ifengimg.com/2013/3/22/vloginbg.png) no-repeat -235px -888px}
+.vl_tab ul li.current .vl_log{background:url(http://y0.ifengimg.com/2013/3/22/vloginbg.png) no-repeat -257px -55px}
+.vl_tab ul li.current .vl_reg{background:url(http://y0.ifengimg.com/2013/3/22/vloginbg.png) no-repeat -257px -106px}
+.vl_tab ul li.current .vl_log:hover{background:url(http://y0.ifengimg.com/2013/3/22/vloginbg.png) no-repeat -257px -55px}
+.vl_tab ul li.current .vl_reg:hover{background:url(http://y0.ifengimg.com/2013/3/22/vloginbg.png) no-repeat -257px -106px}
+.vpopLogo{float:left;width:114px;height:31px;overflow:hidden;margin-top:20px;background:url(http://y0.ifengimg.com/2013/3/22/vloginbg.png) no-repeat 0 0;text-indent:-99999px}
+.vpopclose{display:inline;float:left;width:15px;height:15px;overflow:hidden;background:url(http://y0.ifengimg.com/2013/3/22/vloginbg.png) no-repeat -125px -145px;margin:10px 0 0 24px;text-indent:-99999px}
+.vpopclose:hover{background-position:-145px -145px}
+/*登录*/
+.vlogbox{overflow:hidden;zoom:1}
+.vlogbox .vlogboxFrame{display:inline;float:left;width:313px;position:relative}
+.vlogbox .vlogboxMore{display:inline;float:left;width:155px;height:244px;background:url(http://y0.ifengimg.com/2013/3/22/vloginbg.png) no-repeat -547px 0;padding:61px 0 0 22px}
+.vlogboxFrame ul{padding-top:46px}
+.vlogboxFrame ul li{overflow:hidden;zoom:1;padding-top:12px}
+.vlogboxFrame ul li label{display:inline;float:left;width:75px;padding-right:7px;font-size:14px;color:#6a6a6a;text-align:right;line-height:28px}
+.vlogboxFrame ul li .vloginpbox{color:#515151;display:inline;float:left;width:192px;height:26px;overflow:hidden;padding:3px 0;background:url(http://y0.ifengimg.com/2013/3/22/vloginbg.png) no-repeat 0 -185px}
+.vloginpbox input{outline:none}
+.vlogboxFrame ul li .vlibfocus{background:url(http://y0.ifengimg.com/2013/3/22/vloginbg.png) no-repeat 0 -222px}
+.vlogboxFrame ul li .vloginpbox input{width:176px;height:20px;line-height:21px;*line-height:18px;padding:3px 5px;margin-left:4px;font-size:14px;border:0 none;background:none;font-family:Arial,Helvetica,sans-serif}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+.vlogboxFrame ul li .vloginpbox input{padding:4px 5px 2px}
+} 
+.vlogboxFrame ul li.loginAuto{padding:5px 0 0 84px;*padding:0 0 0 80px}
+.vlogboxFrame ul li.loginAuto label{display:inline-block;cursor:pointer;float:none;font-size:12px;color:#6a6a6a;text-align:left;line-height:18px;width:auto;padding:0 0 0 3px}
+.vlogtips{position:absolute;top:35px;left:85px;font-size:12px;color:#8f1d22}
+.login_pwd{overflow:hidden;zoom:1;padding:36px 0 0 84px}
+.login_pwd .loginbtn{display:inline;float:left;width:112px;height:37px;overflow:hidden;background:url(http://y0.ifengimg.com/2013/3/22/vloginbg.png) no-repeat 0 -35px;text-indent:-99999px}
+.login_pwd .loginbtn:hover{background-position:0 -75px}
+.login_pwd .loginregi{display:inline;float:left;width:60px;margin:10px 0 0 19px;color:#004a99}
+.vlogboxmain{overflow:hidden;zoom:1}
+.vtipslogin{text-align:center;color:#6a6a6a}
+.vtipslogin a{color:#004A99}
+.vlogbox .vlogboxMore p{font-size:14px;color:#6a6a6a}
+.vlogbox .vlogboxMore .linksina{display:block;width:130px;height:32px;overflow:hidden;background:url(http://y0.ifengimg.com/2013/3/22/vloginbg.png) no-repeat -390px 0;text-indent:-99999px;margin-top:23px}
+.vlogbox .vlogboxMore .linksina:hover{background-position:-390px -38px}
+.vlogbox .vlogboxMore .linkqq{display:block;width:130px;height:32px;overflow:hidden;background:url(http://y0.ifengimg.com/2013/3/22/vloginbg.png) no-repeat -390px -75px;text-indent:-99999px;margin-top:23px}
+.vlogbox .vlogboxMore .linkqq:hover{background-position:-390px -115px}
+/*注册*/
+.vregboxmain ul{padding-top:22px;overflow:hidden;zoom:1}
+.vregboxmain ul li{float:left;width:490px;overflow:hidden;zoom:1;padding-top:9px}
+.vregboxmain ul li label{display:inline;float:left;width:156px;line-height:28px;padding-right:10px;text-align:right;font-size:14px;color:#515151}
+.vregboxmain ul li .vloginpbox{display:inline;float:left;width:220px;height:26px;overflow:hidden;padding:3px 0;background:url(http://y0.ifengimg.com/2013/3/22/vloginbg.png) no-repeat -205px -185px}
+.vregboxmain ul li .vlibfocus{background:url(http://y0.ifengimg.com/2013/3/22/vloginbg.png) no-repeat -205px -222px}
+.vregboxmain ul li .vloginpbox input{width:200px;height:20px;line-height:20px;*line-height:18px;margin-left:4px;padding:3px 5px;font-size:14px;color:#515151;border:0 none;background:none;font-family:Arial,Helvetica,sans-serif}
+.vregboxmain .vlogtips{top:85px;left:185px}
+.vregboxmain ul li.remember_pwd{width:323px;padding:2px 0 0 167px}
+.vregboxmain ul li.remember_pwd label{float:none;font-size:12px;cursor:pointer}
+.vregboxmain ul li.remember_pwd .read_agree{margin-right:3px}
+.vregboxmain ul li.vregister{width:323px;padding:13px 0 0 167px}
+.vregister a{display:block;width:95px;height:28px;overflow:hidden;background:url(http://y0.ifengimg.com/2013/3/22/vloginbg.png) no-repeat 0 -115px;text-indent:-99999px}
+.vregister a:hover{background-position:0 -145px}
+.validateCode{overflow:hidden;zoom:1;float:left}
+.validateCode img{cursor:pointer;display:inline;float:left;width:60px;height:20px;margin-top:3px;vertical-align:top}
+.validateCode .veri_code{display:inline;float:left;width:135px;height:26px;overflow:hidden;padding:3px 0;background:url(http://y0.ifengimg.com/2013/3/22/vloginbg.png) no-repeat -122px -55px}
+.validateCode .veri_codefocus{background:url(http://y0.ifengimg.com/2013/3/22/vloginbg.png) no-repeat -122px -95px}
+.validateCode .veri_code input{display:inline;float:left;width:52px;height:20px;line-height:20px;*line-height:21px;padding:3px 5px;margin-left:4px;font-size:14px;color:#515151;border:0 none;background:none;font-family:Arial,Helvetica,sans-serif;outline:none}
+.validateCode .change{float:left;margin:8px 0 0 2px;color:#515151}
+.validateCode .change a{color:#004a99}
+.vlogboxFrame ul li .vliberror{background:url(http://y0.ifengimg.com/2013/3/22/vloginbg.png) no-repeat 0 -817px}
+.vregboxmain ul li .vliberror{background:url(http://y0.ifengimg.com/2013/3/22/vloginbg.png) no-repeat 0 -859px}
+.vregboxmain ul li .validateCode .vliberror{background:url(http://y0.ifengimg.com/2013/3/22/vloginbg.png) no-repeat 0 -775px}
+
+/*cl:样式修改*/
+.maskLayer,.vloginbox{display: none;}
+
+
+/*20130320添加账号绑定功能*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+.vregboxmain ul li.remember_pwd .read_agree{position:relative;top:-2px;margin-top:0}
+.vlogboxFrame ul li.loginAuto label{position:relative;top:2px}
+}
+.loginbox{width:520px;margin:-137px 0 0 -260px;line-height:18px;overflow:hidden;z-index:1200;left: 50%;top: 50%;position:fixed;_position:absolute;_top:expression((screen.availHeight-210)/2+(window.pageYOffset || document.documentElement.scrollTop))}
+.loginbox .logincont{width:514px;height:274px;line-height:18px;overflow:hidden;border-left:3px solid #b5000b;border-right:3px solid #b5000b;background:url(http://y3.ifengimg.com/2485bc43b033c495/2012/0210/homenav111208.png) repeat-x 0 -444px #fff}
+.loginbox .ctop,.loginbox .cbtm{height:3px;font-size:1px;line-height:1px}
+.loginbox  span.cl{width:3px;float:left;height:3px;background:url(http://res.img.ifeng.com/8cbe73a7378dafdb/2011/1229/circle111208.gif) no-repeat}
+.loginbox  span.cr{width:3px;float:right;height:3px;background:url(http://res.img.ifeng.com/8cbe73a7378dafdb/2011/1229/circle111208.gif) no-repeat -3px 0}
+.loginbox  span.cc{width:514px;float:left;height:3px;background:#b5000b}
+.loginbox .cbtm span.cl{background-position:0 -3px}
+.loginbox .cbtm span.cr{background-position:-3px -3px}
+.loginbox ul{width:276px;margin:0 auto;color:#787878}
+.loginbox ul li a{color:#515151}
+.loginbox ul li{width:276px;height:24px;margin-bottom:14px;float:left}
+.loginbox ul li label{float:left;width:46px;text-align:right;padding-right:10px;line-height:25px;font-size:14px}
+.loginbox ul li .txt{float:left;width:216px;height:24px;line-height:24px;padding:0 0 0 4px;border:0;background:url(http://y3.ifengimg.com/2485bc43b033c495/2012/0210/homenav111208.png) no-repeat 0 -364px}
+.loginbox ul li .txt input{height:18px;line-height:18px;border:0 none;background:#FFF;font-size:12px;width:211px;outline:none;}
+.loginbox ul li .remember{float:left;margin:2px 6px 0 56px;*margin:-2px 2px 0 52px;display:inline}
+.loginbox ul li label{float:left}
+.loginbox ul li a.forget{float:right}
+.loginbox ul li a.loginbtn{float:left;width:99px;height:25px;margin-left:56px;text-indent:-9999px; background:url(http://y3.ifengimg.com/2485bc43b033c495/2012/0210/homenav111208.png) no-repeat 0 -314px;overflow:hidden}
+.loginbox ul li a.loginbtn:hover{background-position:0 -339px}
+.loginbox ul li a.regi{float:right;width:99px;height:25px;text-indent:-9999px;background:url(http://y3.ifengimg.com/2485bc43b033c495/2012/0210/homenav111208.png) no-repeat -121px -314px;overflow:hidden}
+.loginbox ul li a.regi:hover{background-position:-121px -339px}
+.loginbox ul li.lb1{height:40px;margin:2px 0 0;_height:37px}
+.loginbox ul li.lb2{height:30px;margin-bottom:0}
+.loginbox ul li.lb3{margin-bottom:5px}
+.loginbox .error{width:210px;color:#b3000b;height:22px;line-height:24px;overflow:hidden;margin-left:56px;padding-left:8px;border:1px solid #cdcf99;background:#fdfedf}
+.loginbox em{width:505px;height:15px;display:block;margin:9px 9px 0 0}
+.loginbox em a{width:15px;height:15px;float:right;line-height:1px;font-size:1px;text-indent:-9999px;cursor:pointer;background:url(http://y3.ifengimg.com/2485bc43b033c495/2012/0210/homenav111208.png) no-repeat -111px -196px}
+.loginbox em a:hover{background:url(http://y3.ifengimg.com/2485bc43b033c495/2012/0210/homenav111208.png) no-repeat -111px -212px}
+.loginbox h2{width:161px;height:20px;text-indent:-9999px;margin:10px auto 5px;font-size:18px;background:url(http://y3.ifengimg.com/2485bc43b033c495/2012/0210/homenav111208.png) no-repeat 0 -390px}
+.loginbox a{text-decoration:none}
+.loginbox a:hover{text-decoration:underline}
+.loginTab{*zoom:1}
+.loginTab:after{content:" ";overflow:hidden;clear:both;display:block;height:0}
+.loginFrame{display:inline;float:left;width:329px}
+.loginMore{display:inline;float:left;width:154px;height:235px;padding-left:31px;background:url(http://y0.ifengimg.com/2013/3/22/loginTab.png) no-repeat -190px -95px}
+.loginbox ul li.lb1 label{cursor:pointer;float:left;width:auto;text-align:left;line-height:18px;padding:0;font-size:12px}
+.loginMore p{margin-top:66px;font-size:14px;color:#5b5b5b}
+.loginMore .loginMoreLink{display:block;width:125px;margin:14px 0 0;height:22px;line-height:24px;*line-height:23px;_line-height:25px;overflow:hidden;background:url(http://y0.ifengimg.com/2013/3/22/loginTab.png) no-repeat 0 -159px;color:#FFF;text-indent:25px}
+.weibo{width:486px;margin:-137px 0 0 -243px}
+.weibo .logincont{width:480px}
+.weibo  span.cc{width:480px}
+.weibo em{width:470px}
+.weibo .logincont{background:#FFF url(http://y0.ifengimg.com/2013/3/22/loginTab.png) no-repeat 0 -338px}
+.weiboLogin{padding-left:165px}
+.weiboLogin p{font-size:14px;color:#5b5b5b;margin:20px 0 0 50px}
+.weibo .wblogtit{width:120px;height:20px;overflow:hidden;background:url(http://y0.ifengimg.com/2013/3/22/loginTab.png) no-repeat 0 -101px;margin:35px 0 0 50px}
+.weibo .wblogIntBox{position:relative;padding:5px 0 35px 50px;overflow:hidden;zoom:1}
+.wblogInt{display:inline;float:left;width:192px;height:26px;overflow:hidden;background:url(http://y0.ifengimg.com/2013/3/22/loginTab.png) no-repeat}
+.wblogInt input{width:182px;height:18px;line-height:18px;border:0 none;font-family:Arial;font-size:12px;outline:none;margin:5px 0 0 5px;_margin-top:3px;background:#FFF;color:#000}
+.weibo .wblogIntBox .current{background:url(http://y0.ifengimg.com/2013/3/22/loginTab.png) no-repeat 0 -36px}
+.weibo .wblogIntBox a{display:inline;float:left;width:26px;line-height:18px;margin:6px 0 0 11px;overflow:hidden}
+.wblogBtn{padding:8px 0 0 50px;overflow:hidden;zoom:1}
+.wblogBtn .wblogBtnin{display:inline;float:left;width:89px;height:29px;line-height:29px;overflow:hidden;background:url(http://y0.ifengimg.com/2013/3/22/loginTab.png) no-repeat 0 -191px;text-align:center;font-size:14px;font-weight:bold;color:#FFF}
+.wblogBtn .wblogBtnin:hover{background:url(http://y0.ifengimg.com/2013/3/22/loginTab.png) no-repeat 0 -230px;text-decoration:none;color:#fff}
+.wblogBtn .wblogBtnzh{display:inline;float:left;margin:12px 0 0 29px}
+.weibo .BindLogin{padding:36px 0 0 165px;overflow:hidden;zoom:1}
+.weibo .Bindlogtit{width:120px;height:18px;overflow:hidden;background:url(http://y0.ifengimg.com/2013/3/22/loginTab.png) no-repeat 0 -131px;margin:0 0 3px 50px}
+.weibo .BindLoginForm ul{margin:0 0 0 50px}
+.weibo .BindLoginForm ul li{height:25px}
+.weibo .BindLoginForm .error{margin:1px 0 0;width:214px}
+.weibo .BindLoginForm ul li .txt{color:#515151;width:160px;padding-right:4px;background:url(http://y0.ifengimg.com/2013/3/22/loginTab.png) no-repeat 0 -67px}
+.weibo .BindLoginForm ul li .txt input{width:156px;height:18px;line-height:18px;*line-height:25px;border:0 none;background:#FFF;font-size:12px;outline:none;}
+.weibo .BindLoginForm .loginBindBtn{display:inline;float:left;width:79px;margin-left:57px;height:24px;line-height:25px;overflow:hidden;background:url(http://y0.ifengimg.com/2013/3/22/loginTab.png) no-repeat 0 -270px;color:#FFF;text-align:center}
+.weibo .BindLoginForm .loginBindBtn:hover{background:url(http://y0.ifengimg.com/2013/3/22/loginTab.png) no-repeat 0 -304px;text-decoration:none}
+.weibo .BindLoginForm .loginBindLink{display:inline;float:left;color:#004a99;margin:6px 0 0 40px}
+.weibo .wblogtit_tx{width:120px;height:20px;overflow:hidden;background:url(http://y0.ifengimg.com/2013/3/22/loginTab.png) no-repeat 0 -640px;margin:35px 0 0 50px}
+.wb_error{position:absolute;top:32px;left:50px;color:#901d22;width:196px;font-size:11px;-webkit-text-size-adjust:none;}
+
+/*输入框默认颜色*/
+.defColor{color: #cecece}
+.vcom_tit .commentLogin{color: #004a99;text-decoration: none;font-size: 12px;}
+
+/*20130325*/
+#loginAuto{position:relative;margin-top:-3px}
+.vlogboxFrame ul li .vloginpbox input{font-size:12px}
+.vlogboxFrame ul li .vloginpbox input.defColor,.vlogboxFrame ul li .vloginpbox input.js_loginInfo{font-family:"Microsoft YaHei","SimSun",Arial,Helvetica,sans-serif;margin-top:1px;margin-top:0\9\0}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+#loginAuto{position:relative;margin-top:0}
+.vlogboxFrame ul li .vloginpbox input{font-size:12px;margin-top:0}
+.vlogboxFrame ul li .vloginpbox input.defColor,.vlogboxFrame ul li .vloginpbox input.js_loginInfo{margin-top:0}
+}
